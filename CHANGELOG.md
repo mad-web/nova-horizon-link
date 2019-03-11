@@ -4,7 +4,7 @@ All notable changes to `mad-web/nova-horizon-link` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 3.0.0 - 2018-11-14
+## 3.0.0 - 2019-03-11
 
 - added Laravel Horizon 3.0 support
 
