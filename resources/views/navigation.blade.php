@@ -1,6 +1,7 @@
 <h3
     onclick="javascript:window.open('{{ route('horizon.index') }}', '_{{ $target }}')"
-    class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline">
+    class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline"
+>
     @if ($label !== null)
         <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="var(--sidebar-icon)" d="M3.5,17.6C1.3,15.7,0,12.9,0,10c0-2.8,1.1-5.3,2.9-7.1C6.8-1,13.2-1,17.1,2.9s3.9,10.2,0,14.1 C13.4,20.8,7.5,21,3.5,17.6L3.5,17.6z M2.7,10.6c1.1-1,1.9-2.3,4-2.3c3.3,0,3.3,3.3,6.7,3.3c2.1,0,2.9-1.3,4-2.3 c-0.3-4-3.9-7-7.9-6.7S2.4,6.6,2.7,10.6L2.7,10.6z"/></svg>
         <span class="sidebar-label">
