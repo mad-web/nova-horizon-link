@@ -2,8 +2,8 @@
 
 namespace MadWeb\NovaHorizonLink;
 
-use Laravel\Nova\Tool;
 use Laravel\Horizon\Horizon;
+use Laravel\Nova\Tool;
 
 class HorizonLink extends Tool
 {
