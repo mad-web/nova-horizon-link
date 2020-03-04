@@ -4,6 +4,11 @@ All notable changes to `mad-web/nova-horizon-link` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 4.0.0 - 2020-03-04
+
+- added Laravel Horizon ^4.0 support
+- dropped support Horizon ^1.0|^2.0
+
 ## 3.0.1 - 2019-04-30
 
 - replaced html tag of navigation link from `a` to `h3` to make it compatible with different themes
