@@ -14,8 +14,6 @@ class HorizonLink extends Tool
 
     public function __construct(?string $label = 'Horizon Queues', string $target = 'self')
     {
-        parent::__construct();
-
         $this->label = $label;
         $this->target = $target;
     }
