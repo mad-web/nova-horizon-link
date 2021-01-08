@@ -4,6 +4,10 @@ All notable changes to `mad-web/nova-horizon-link` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 5.0.1 - 2021-01-08
+
+- Complatibility with Nova 3.19.0
+
 ## 5.0.0 - 2020-09-16
 
 - Laravel Horizon 5.0 support
