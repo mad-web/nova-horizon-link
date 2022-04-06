@@ -1,3 +1,5 @@
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
+
 <p align="center">
     <img title="Nova Horizon Smart Link" height="120" src="docs/logo.png" />
 </p>
