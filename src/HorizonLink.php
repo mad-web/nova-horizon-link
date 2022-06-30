@@ -2,8 +2,8 @@
 
 namespace MadWeb\NovaHorizonLink;
 
-use Laravel\Horizon\Horizon;
 use Illuminate\Http\Request;
+use Laravel\Horizon\Horizon;
 use Laravel\Nova\Tool;
 
 class HorizonLink extends Tool
@@ -62,12 +62,13 @@ class HorizonLink extends Tool
     }
 
     /**
-    * Build the menu that renders the navigation links for the tool.
-    *
-    * @param  \Illuminate\Http\Request  $request
-    * @return mixed
-    */
-    public function menu(Request $request) {
+     * Build the menu that renders the navigation links for the tool.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return mixed
+     */
+    public function menu(Request $request)
+    {
         return $this->renderNavigation();
     }
 }
